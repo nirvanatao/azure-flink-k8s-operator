@@ -13,9 +13,9 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/rest"
 
-	"github.com/azure-flink-k8s-operator/pkg/apis"
-	"github.com/azure-flink-k8s-operator/pkg/controller"
-	"github.com/azure-flink-k8s-operator/version"
+	"pkg/apis"
+	"pkg/controller"
+	"version"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	kubemetrics "github.com/operator-framework/operator-sdk/pkg/kube-metrics"
