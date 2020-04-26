@@ -1,4 +1,4 @@
-module github.com/azure-flink-k8s-operator
+module azure-flink-k8s-operator
 
 go 1.13
 
